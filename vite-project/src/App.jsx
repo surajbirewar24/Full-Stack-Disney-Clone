@@ -7,6 +7,7 @@ import Slider from './Components/Slider'
 import ProductionHouse from './Components/ProductionHouse'
 import GenreMovieList from './Components/GenreMovieList'
 
+
 export default function App() {
   const [count, setCount] = useState(0)
 
@@ -16,6 +17,7 @@ export default function App() {
     <Slider/>
     <ProductionHouse/>
     <GenreMovieList/>
+    
     </div>
   )
 }
